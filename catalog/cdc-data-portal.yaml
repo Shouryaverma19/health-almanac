@@ -1,0 +1,40 @@
+id: cdc-data-portal
+title: CDC Open Data Portal (data.cdc.gov)
+description: CDC's open data portal — hundreds of public health datasets (surveillance, vital statistics,
+  vaccination, environmental health) with a SODA API.
+publisher: U.S. Centers for Disease Control and Prevention (CDC)
+topics:
+- open-data
+- datasets
+- surveillance
+- api
+source:
+  canonical_url: https://data.cdc.gov/
+  predecessor_url: null
+  doi: null
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- json
+- xml
+coverage:
+  spatial: United States
+  temporal: varies by dataset
+  cadence: irregular
+license: public-domain (US Gov work)
+attribution: U.S. CDC, data.cdc.gov
+archive:
+  wayback_url: null
+  cloud_mirror: null
+  mirror: null
+status: live
+last_checked: '2026-06-29'
+checksum: null
+notes: Socrata-based portal with a SODA API.
